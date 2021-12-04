@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(./lib/bootstrap/css/bootstrap.min.css);
+body {
+    background-color:#1a1a1ae3;
+}
+.main-body{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.title-banner{
+    background-color: #592d83;
+    height: 80px;
+    padding-top: 10px;  
+    width: 100%;
+}
+.subBody1{
+    width:50%;
+}
+#pageNotFound{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}

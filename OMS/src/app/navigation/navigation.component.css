@@ -1,0 +1,35 @@
+nav {
+    background-color: #9f90ff;
+}
+.logo_picture {
+    width: 36px;
+    height: 36px;
+    margin-right: 5%;
+}
+#logo{
+    width: 33%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbarNavAltMarkup .nav-link {
+    color: #000000e3;
+}
+#navbarNavAltMarkup .nav-link:hover{
+    background-color: #ab9effb2; 
+    border: solid 1px rgba(255, 255, 255, 0.541);
+    border-radius: 9px;   
+}   
+#navbarNavAltMarkup .active {
+    color: rgb(233, 233, 233);
+    background-color: #1b1b1bd0;
+}
+
+#connection-nav .nav-link{
+    color: rgb(233, 233, 233);
+    background-color: #383636d0;
+}
+#connection-nav .nav-link:hover{
+    color: rgb(233, 233, 233);
+    background-color: #000000e3;    
+} 
