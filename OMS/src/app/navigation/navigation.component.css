@@ -1,3 +1,6 @@
+h1 {
+    font-family :'Times New Roman', Times, serif;
+}
 nav {
     background-color: #9f90ff;
 }
@@ -12,10 +15,11 @@ nav {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#navbarNavAltMarkup .nav-link {
+.nav-link {
     color: #000000e3;
+    width:auto;
 }
-#navbarNavAltMarkup .nav-link:hover{
+.clickable_nav_elt:hover{
     background-color: #ab9effb2; 
     border: solid 1px rgba(255, 255, 255, 0.541);
     border-radius: 9px;   
@@ -24,8 +28,8 @@ nav {
     color: rgb(233, 233, 233);
     background-color: #1b1b1bd0;
 }
-
-#connection-nav .nav-link{
+#connection-nav .nav-link
+{
     color: rgb(233, 233, 233);
     background-color: #383636d0;
 }
@@ -33,3 +37,9 @@ nav {
     color: rgb(233, 233, 233);
     background-color: #000000e3;    
 } 
+
+#hiden_nav_menu {
+    height: 50px;
+    width: 10%;
+    
+}
