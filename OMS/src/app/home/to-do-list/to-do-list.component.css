@@ -1,0 +1,17 @@
+.component{
+    padding-left: 15%;
+}
+#add {
+    text-align: center;
+    height: 40px;
+    width:80%;
+    padding-top: 5px;
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: rgb(63, 63, 63);
+}
+#add:hover {
+    background-color: rgba(252, 252, 252, 0.342);
+}
+#toDoList{
+}

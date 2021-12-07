@@ -5,9 +5,9 @@ body {
 }
 .main-body{
     font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
     width: 100%;
     display: flex;
-    justify-content: center;
     color: white;
 }
 .title-banner{
@@ -26,4 +26,24 @@ body {
     align-items: center;
     justify-content: center;
     height: 700px;
+}
+
+/*to do list css*/
+#toDoList .taskBox{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border : 1px solid white;
+    width : 80%;
+    padding-left : 2%;
+    padding-right : 2%;
+}
+#toDoList .taskBox .task{
+    border : 1px solid white;
+}
+#toDoList .taskBox .deleteTask{
+ background-color: rgba(251, 72, 72, 0.829);
+}
+#toDoList .taskBox .deleteTask:hover{
+    background-color: rgba(251, 105, 105, 0.986);
 }
