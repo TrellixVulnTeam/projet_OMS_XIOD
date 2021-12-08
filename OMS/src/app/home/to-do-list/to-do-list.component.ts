@@ -1,3 +1,4 @@
+import { ClassMethod } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -14,8 +15,12 @@ export class ToDoListComponent implements OnInit {
   }
   addTask(): void {
     let elt = document.getElementById("toDoList");
-    let str : String = 'task '+(this.indice);
+    let cm = ToDoListComponent.prototype.deleteTask;
+    const test = cm.bind(this,this.indice)
+    test();
     if(elt == null) return ;
+    elt.onclick = test;
+    let str : String = 'task '+(this.indice);
     elt.innerHTML += '<div class="taskBox" id="task'+(this.indice)+'">'
                         +'<div>'
                           +'<div class="checkbox"></div>'
@@ -23,7 +28,7 @@ export class ToDoListComponent implements OnInit {
                           + str
                           +'</div>'
                         +'</div>'
-                        +'<div class="deleteTask" (click)="this.deleteTask('+this.indice+')">'
+                        +'<div class="deleteTask" (click)="deleteTask('+this.indice+')">'
                           +'<img src="assets/img/toDoList/trash-fill.svg" width=30px/>'
                         +'</div>'
                         +'</div>'
