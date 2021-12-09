@@ -33,17 +33,70 @@ body {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    border : 1px solid white;
+    /*border : 1px solid white;*/
     width : 80%;
     padding-left : 2%;
     padding-right : 2%;
+    margin-bottom: 10px;
+    background-color: #575757;
 }
-#toDoList .taskBox .task{
-    border : 1px solid white;
+#toDoList .taskBox:hover{
+    background-color: #57575798;
 }
-#toDoList .taskBox .deleteTask{
- background-color: rgba(251, 72, 72, 0.829);
+#toDoList .selectedTaskBox{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*border : 1px solid white;*/
+    width : 80%;
+    padding-left : 2%;
+    padding-right : 2%;
+    margin-bottom: 10px;
+    background-color: #57575798;
 }
-#toDoList .taskBox .deleteTask:hover{
-    background-color: rgba(251, 105, 105, 0.986);
+#toDoList .task{
+    height: auto;
+    /*border : 1px solid white;*/
+}
+
+#toDoList  .deleteTask{
+    background-color: rgba(251, 72, 72, 0.829);
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+}
+#toDoList .deleteTask:hover{
+    background-color: #fb69698a;
+}
+
+#toDoList .checkTask{
+    background-color: #a0f55ad3;
+    border-radius: 5px;
+    margin-right: 10%;
+    height: 30px;
+    width: 30px;
+}
+#toDoList .checkTask:hover{
+    background-color: #a0f55a75;
+}
+#toDoList .unCheckTask{
+    background-color: #f5d33d;
+    border-radius: 5px;
+    margin-right: 10%;
+    height: 30px;
+    width: 30px;
+}
+#toDoList .unCheckTask:hover{
+    background-color: #f5d33d8a
+}
+.check{
+    text-decoration: line-through;
+}
+.page-body{
+    width:70%;
+}
+h3{
+    color:antiquewhite;
+}
+th{
 }

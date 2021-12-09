@@ -9,7 +9,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { FeaturesComponent } from './features/features.component';
 import { DocumentationComponent } from './documentation/documentation.component';
 import { AboutComponent } from './about/about.component';
-import { ToDoListComponent } from './home/to-do-list/to-do-list.component';
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
 
 @NgModule({
   declarations: [
